@@ -1,6 +1,5 @@
 import re
 import urllib.request
-#https://en.oxforddictionaries.com/definition/car
 word = input("Enter a word : ")
 url = "https://en.oxforddictionaries.com/definition/"
 url = url + word
