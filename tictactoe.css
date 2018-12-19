@@ -1,0 +1,102 @@
+body {
+  text-align: center;
+  font-family: 'sans-serif';
+}
+
+h1{
+  font-family: 'sans-serif';
+  text-align: center;
+}
+
+.heading{
+  height: 15%;
+  background-color: #E5E4E2;
+  text-align: center;
+}
+#board {
+  margin: 30px auto 30px auto;
+  height: 300px;
+  width: 300px;
+}
+
+#scores {
+  font-size: 150%;
+}
+
+td {
+  font-family: 'sans-serif';
+  font-size: 3.5em;
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 300%;
+}
+
+tbody {
+  border: none;
+}
+table{
+  border: 2px solid black;
+}
+
+.top > td{
+  border-top:none;
+  border-bottom: solid 1px black;
+}
+.mid > td {
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+}
+.bot > td {
+  border-bottom: none;
+}
+.score > h2{
+  font-size: 200%;
+  color : #888;
+  font-family: sans-serif;
+  font-style: bold;
+}
+
+.left {
+  border-left: none;
+
+}
+.right {
+  border-right: none;
+}
+.panel {
+  margin-top: 15%;
+}
+#start{
+  margin-top: 50px;
+  font-size: 250%;
+}
+#winner{
+  margin-bottom: 1%;
+}
+#reset{
+  position:relative;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  font-size: 250%;
+}
+#Xwon{
+  color:red;
+  font-size: 300%;
+  font-family: sans-serif;
+}
+#Owon{
+  color:green;
+  font-size: 300%;
+  font-family: sans-serif;
+}
+#draw{
+  color:blue;
+  font-size: 300%;
+  font-family: sans-serif;
+}
+.panel-footer{
+  font-family: "sans-serif";
+  font-size: 200%;
+}
